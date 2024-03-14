@@ -9,6 +9,19 @@ E para o gerenciamento do banco de dados utilizei o [Beekeeper Studio](https://w
 
 ![image](https://github.com/majuss8/API_sistema_biblioteca/assets/127978188/e8f6a59b-a030-4e05-aee2-b4ad727fd2b9)
 
+- No terminal digite os comandos:
+```
+npm init -y
+```
+```
+npm install express
+```
+```
+npm install nodemon -D
+```
+```
+npm run dev
+```
 
 A Tabela chamada `autores` contém as seguintes características:
 
