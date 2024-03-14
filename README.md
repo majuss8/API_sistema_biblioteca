@@ -58,19 +58,19 @@ Exemplo de saída
 
 ```
 {
-    "id": 1,
+    "id": 2,
     "nome": "Victor Hugo",
     "idade": 73,
     "livros": [
         {
-            "id": 1,
+            "id": 2,
             "nome": "Os Miseráveis",
             "genero": "Romance",
             "editora": "A. Lacroix, Verboeckhoven & Ce.",
             "data_publicacao": "1862-04-03"
         },
         {
-            "id": 2,
+            "id": 3,
             "nome": "O’corcunda de Notre-Dame",
             "genero": "Romance",
             "editora": "Scipione",
@@ -107,7 +107,7 @@ Exemplo de saída
 
 ```
 {
-	"id": 3,
+	"id": 1,
 	"nome": "Lógica de Programação",
 	"genero": "Programação",
 	"editora": "Casa do Código",
@@ -133,38 +133,38 @@ Exemplo de saída
 [
     {
         "id": 1,
+        "nome": "Lógica de Programação",
+        "genero": "Programação",
+        "editora": "Casa do Código",
+        "data_publicacao": "2014-04-16"
+        "autor": {
+            "id": 3,
+            "nome": "Paulo Silveira",
+            "idade": 38
+        }
+    },
+    {
+        "id": 2,
         "nome": "Os Miseráveis",
         "genero": "Romance",
         "editora": "A. Lacroix, Verboeckhoven & Ce.",
         "data_publicacao": "1862-04-03",
         "autor": {
-            "id": 1,
-            "nome": "Victor Hugo",
-            "idade": 73
-        }
-    },
-    {
-        "id": 2,
-        "nome": "O’corcunda de Notre-Dame",
-        "genero": "Romance",
-        "editora": "Scipione",
-        "data_publicacao": "1831-03-01",
-        "autor": {
-            "id": 1,
+            "id": 2,
             "nome": "Victor Hugo",
             "idade": 73
         }
     },
     {
         "id": 3,
-        "nome": "Lógica de Programação",
-        "genero": "Programação",
-        "editora": "Casa do Código",
-        "data_publicacao": "2014-04-16"
+        "nome": "O’corcunda de Notre-Dame",
+        "genero": "Romance",
+        "editora": "Scipione",
+        "data_publicacao": "1831-03-01",
         "autor": {
             "id": 2,
-            "nome": "Paulo Silveira",
-            "idade": 38
+            "nome": "Victor Hugo",
+            "idade": 73
         }
     }
 ]
