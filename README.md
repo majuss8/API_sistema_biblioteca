@@ -7,6 +7,9 @@ No projeto utilizei pacotes npm e o framework [Express](https://expressjs.com/pt
 Testei e documentei as rotas usando o [Insomnia](https://insomnia.rest/).
 E para o gerenciamento do banco de dados utilizei o [Beekeeper Studio](https://www.beekeeperstudio.io/)
 
+![image](https://github.com/majuss8/API_sistema_biblioteca/assets/127978188/e8f6a59b-a030-4e05-aee2-b4ad727fd2b9)
+
+
 A Tabela chamada `autores` contém as seguintes características:
 
 - Um identificador único do autor como chave primaria e auto incremento;
